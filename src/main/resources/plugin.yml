@@ -1,0 +1,12 @@
+name: DankMiner
+version: ${project.version}
+main: dankminer.dankminer.DankMiner
+api-version: 1.16
+authors: [LeShiesh]
+description: A Plugin to display Memes form reddit.com/r/dankmemes in form of maps
+website: https://github.com/JojoSchi
+
+commands:
+  meme:
+    description: get a map which displays memes
+    aliases: ["dank", "dankmeme"]
